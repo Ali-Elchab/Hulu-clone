@@ -1,11 +1,10 @@
 .header{
-    height: 75%;
+    height:660px;
     width: 100%;
     background-image: linear-gradient(0deg, transparent 60%, rgba(0, 0, 0, 0.2) 90%, rgba(0, 0, 0, 0.4) 100%), url(https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original);
     background-size: cover;
-    background-position-y: -14vh;
-    background-repeat: no-repeat;
-    justify-content: center;
+    background-position-y: -12vh;
+    
 }
 
 .nav{
@@ -65,12 +64,12 @@ button > a {
     width:100%;
     height: 80%;
     color:white;
-    margin-top: 13vh;
+    padding-top: 13vh;
 }
 
 .bundlecard{
     display: flex;
-    height: 50%;
+    height: 70%;
     width:100%;
     justify-content: center;
 }
@@ -97,7 +96,7 @@ button > a {
     height:25%
 }
 .logohuludisney2{
-    width: 100%;
+    width: 200%;
     height:25%
 
 }
@@ -125,6 +124,9 @@ button > a {
     opacity: 0.8;
 }    
 
+.links{
+    margin-top: 1rem;
+}
 .terms{
     text-align: center;
     color:rgb(255, 255, 255);
@@ -138,10 +140,104 @@ button > a {
 .signup{
     text-align: center;
     color:rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.6px;
     margin-top: 2rem;
 }
 .signup>a{
-    color:inherit
+    color:inherit;
 }
+
+.library {
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0b0c0f;
+
+    
+}
+
+.content{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:88px 20px 50px;
+    width:65%;
+}
+
+.content>h4{
+    color:#00ED82;
+    font-size: 14px;
+}
+
+.content>h2{
+    font-size: 48px;
+    margin: 16px 0 10px;
+}
+
+.content>p{
+    font-size: 18px;
+    margin:0 200px;
+    padding: 16px 0 0;
+    text-align: center;
+}
+
+.shows{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    width:100%;
+    height:450px;
+    flex-wrap: wrap;
+}
+
+.shows > button {
+    width:295px;
+    border-radius: 20px;
+    text-align: start;
+}
+
+.shows >button>div{
+    height:450px;
+    padding: 25px;
+    color:white;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.shows >button>div>h4{
+    margin:0 0 10px;
+    font-size: 16px;
+    
+}
+.shows >button>div>h2{
+    padding: 8px 0;
+    font-size: 24px;
+}
+
+.shows>button>div:hover{
+    filter: brightness(75%);
+    transition: .2s;
+    border:5px solid rgb(164, 161, 161);
+}
+
+.shows button:nth-child(1)>div{
+    background-image:linear-gradient(156.82deg,rgba(0,0,0,.6) 4.58%,transparent 69.61%),linear-gradient(24.5deg,rgba(0,0,0,.2) 4.71%,transparent 71.49%),
+     url("https://cnbl-cdn.bamgrid.com/assets/82fd53644e709344c9e9c1f4ba66519505ecea256294d59a0637bda76ae1436b/original");
+}
+
+.shows button:nth-child(2)>div{
+    background-image:linear-gradient(156.82deg,rgba(0,0,0,.6) 4.58%,transparent 69.61%),linear-gradient(24.5deg,rgba(0,0,0,.2) 4.71%,transparent 71.49%),
+     url("https://cnbl-cdn.bamgrid.com/assets/8c630a19daa8615918152082839724f4dab6538939ba7d3bb45f8faa97acf1b9/original");
+}
+.shows button:nth-child(3)>div{
+    background-image:linear-gradient(156.82deg,rgba(0,0,0,.6) 4.58%,transparent 69.61%),linear-gradient(24.5deg,rgba(0,0,0,.2) 4.71%,transparent 71.49%),
+     url("https://cnbl-cdn.bamgrid.com/assets/6293f29d56ae0519362951fa38cf62f61004662eb674e61d99e93e7f064d74ff/original");
+}
+.shows button:nth-child(4)>div{
+    background-image:linear-gradient(156.82deg,rgba(0,0,0,.6) 4.58%,transparent 69.61%),linear-gradient(24.5deg,rgba(0,0,0,.2) 4.71%,transparent 71.49%),
+     url("https://cnbl-cdn.bamgrid.com/assets/f3f84cde435747f424ce4ad52d351efc96b5da4765af2f76afa9b86fb5bc9a37/original");
+}
+
