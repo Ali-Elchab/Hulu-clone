@@ -70,7 +70,7 @@ button > a {
   padding-top: 13vh;
 }
 
-.bundlecard {
+.bundle-card {
   display: flex;
   height: 70%;
   width: 100%;
@@ -94,11 +94,11 @@ button > a {
   padding-bottom: 1.5rem;
 }
 
-.logohuludisney {
+.logo-hulu-disney {
   width: 60%;
   height: 25%;
 }
-.logohuludisney2 {
+.logo-hulu-disney2 {
   width: 200%;
   height: 25%;
 }
@@ -259,14 +259,14 @@ button > a {
     url("https://cnbl-cdn.bamgrid.com/assets/f3f84cde435747f424ce4ad52d351efc96b5da4765af2f76afa9b86fb5bc9a37/original");
 }
 
-.livetv {
+.live-tv {
   background-color: #0b0c0f;
   color: white;
   display: flex;
   justify-content: center;
 }
 
-.livecontent {
+.live-content {
   width: 65%;
   display: flex;
   align-items: center;
@@ -274,23 +274,23 @@ button > a {
   text-align: center;
 }
 
-.livecontent > h4 {
+.live-content > h4 {
   color: #00ed82;
   font-size: 14px;
 }
 
-.livecontent > h2 {
+.live-content > h2 {
   font-size: 48px;
   margin: 17px 37px 0px;
 }
 
-.livecontent > span {
+.live-content > span {
   font-size: 18px;
   margin: 18px 0;
   width: 65%;
 }
 
-.livecontent > button {
+.live-content > button {
   background-color: #00ed82;
   padding: 15px 20px;
   border-radius: 10px;
@@ -299,20 +299,20 @@ button > a {
   width: 196px;
 }
 
-.livecontent > p {
+.live-content > p {
   font-size: 10px;
   margin: 18px 0;
   width: 85%;
   color: grey;
 }
 
-.livecontent > a {
+.live-content > a {
   font-size: 16px;
   margin: 16px 0;
   color: rgb(255, 255, 255);
 }
 
-.livesports {
+.live-sports {
   background-image: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.8) -57.5%,
@@ -325,33 +325,33 @@ button > a {
   justify-content: center;
 }
 
-.livesportssection {
+.live-sports-section {
   height: 870px;
   width: 65%;
 }
 
-.livesportswrapper {
+.live-sports-wrapper {
   margin-top: 220px;
   display: flex;
   flex-direction: column;
 }
 
-.livesportswrapper > .tabbuttons {
+.live-sports-wrapper > .tab-buttons {
   padding-bottom: 30px;
 }
 
-.livesportswrapper > .tabbuttons > span {
+.live-sports-wrapper > .tab-buttons > span {
   margin-right: 37px;
   font-size: 12px;
   color: #a8afbd;
 }
 
-.livesportswrapper > h2 {
+.live-sports-wrapper > h2 {
   font-size: 48px;
   margin-top: 25px;
 }
 
-.livesportswrapper > p {
+.live-sports-wrapper > p {
   font-size: 18px;
   margin-top: 20px;
   width: 45%;
@@ -371,7 +371,7 @@ button > a {
   padding: 5px;
 }
 
-.livesportswrapper > span {
+.live-sports-wrapper > span {
   margin-top: 25px;
   font-size: 10px;
   color: #ffffff99;
@@ -428,7 +428,6 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }
